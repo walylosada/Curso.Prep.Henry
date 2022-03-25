@@ -51,7 +51,6 @@ function map(array, cb) {
   nuevoArray = array.map(function(element){
     return cb(element);
   });
-
   return nuevoArray;
 }
 
